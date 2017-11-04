@@ -79,4 +79,4 @@ const skillData = {
   ]
 }
 
-export default skillData;
+export default skillData

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import Skills from './Skills.js'
 import Projects from './Projects.js'
-import skills from './data/skillData.js';
+import skills from './data/skillData.js'
 
 class Main extends React.Component {
 
@@ -22,15 +22,6 @@ class Main extends React.Component {
         <div id="top-main">
           <h1 id="name">misha hoo</h1>
           <img id="self-photo" src="./assets/self.png" alt="portrait"></img>
-          {/* <div id="ani-wrapper">
-            <div id="inner">
-              <div id="animate">
-                <div id="txtAniText" className="slideIn1">
-                  full-stack software engineer
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="about-info">
             <h1 id="title" className="animated animatedFadeUp fadeUp">full-stack software engineer</h1>
             <p id="about">
@@ -50,19 +41,18 @@ class Main extends React.Component {
         <div id="last">
           <h3 className="contact-headline">Contact Me!</h3>
           <a href="https://www.linkedin.com/in/mishahoo/">
-            <img className="overlay icons" src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" alt="icon" width="45px"/>
+            <img className="overlay icons" src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" alt="icon"/>
           </a>
           <a href="https://github.com/mishahoo">
-            <img className="overlay icons" src="http://iconshow.me/media/images/social/simple-icons/png/512/github.png" alt="icon" width="45px" />
+            <img className="overlay icons" src="http://iconshow.me/media/images/social/simple-icons/png/512/github.png" alt="icon" />
           </a>
           <a href="https://www.instagram.com/misha_hoo/">
-            <img className="overlay icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" alt="icon" width="45px"/>
+            <img className="overlay icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" alt="icon"/>
           </a>
           <a href="https://www.instagram.com/misha_hoo/">
             <img className="overlay icons" src="./assets/resume-icon.png" alt="icon" height="45px"/>
           </a>
           <div className="contact-text">
-            {/* <div>Misha Hoo</div> */}
             <a href="mailto:hoomisha@gmail.com" id="email">hoomisha@gmail.com</a>
           </div>
         </div>
@@ -74,4 +64,4 @@ class Main extends React.Component {
 
 }
 
-export default Main;
+export default Main

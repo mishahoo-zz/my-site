@@ -237,6 +237,7 @@ body {
 .icons {
   margin: .5em 1em 1.5em 1em;
   border-radius: 5px;
+  width: 45px;
 }
 
 .contact-headline {
