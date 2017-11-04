@@ -1,0 +1,34 @@
+#last {
+  /*color: #fff;*/
+  background-color: #e3fcea;
+  text-align: center;
+  padding: 1em 0em 2em 0em;
+  /*height: 250px;*/
+  font-size: 20px;
+  letter-spacing: 2px;
+  /*color: white;*/
+}
+
+.contact-headline {
+  font-size: 30px;
+  font-style: italic;
+}
+
+#email {
+  color: #3d3a39;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#email:hover {
+  color: grey;
+}
+
+.contact-text > * {
+  font-size: 18px;
+}
+
+.bar {
+  height: 5px;
+  background-color: #79f7cf;
+}

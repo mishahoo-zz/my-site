@@ -1,5 +1,6 @@
 import React from 'react';
-import Icon from './Icon.js'
+import './Contact.css';
+import Icon from './Icon.js';
 
 const Contact = ({icons}) => {
   return (
