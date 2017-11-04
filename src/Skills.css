@@ -42,6 +42,10 @@
   font-size: 27px;
 }
 
+/********************************************
+  WHEN SCREEN IS SMALLER THAN 950px
+********************************************/
+
 @media (max-width: 950px) {
   #skills {
     flex-direction: column !important;
