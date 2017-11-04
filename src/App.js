@@ -25,7 +25,6 @@ class App extends Component {
         <Projects />
         <Contact icons={icons}/>
 
-        {/* <div className="bar"></div> */}
         <div id="footer">Misha Hoo © 2017</div>
       </div>
     )
