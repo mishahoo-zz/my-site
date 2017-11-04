@@ -1,0 +1,6 @@
+.skill-div > * {
+  margin: .25em .25em;
+  vertical-align: middle;
+  font-size: 20px;
+  display: inline-block !important;
+}
