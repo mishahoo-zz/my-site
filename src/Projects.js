@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 // import styles from 'react-responsive-carousel/lib';
 
-class Projects extends React.Component {
+class Projects extends Component {
 
   render() {
     return (
