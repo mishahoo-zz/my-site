@@ -1,6 +1,6 @@
 import React from 'react';
 import Skills from './Skills.js'
-// import Projects from './Projects.js'
+import Projects from './Projects.js'
 import skills from './data/skillData.js';
 
 class Main extends React.Component {
@@ -46,7 +46,7 @@ class Main extends React.Component {
           </div>
         </div>
         <Skills skills={skills}/>
-        {/* <Projects /> */}
+        <Projects />
         <div id="last">
           <h3 className="contact-headline">Contact Me!</h3>
           <a href="https://www.linkedin.com/in/mishahoo/">
