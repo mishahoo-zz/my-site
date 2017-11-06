@@ -4,7 +4,6 @@ import './App.css';
 import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
-import Icon from './Icon.js';
 import Contact from './Contact.js';
 
 import icons from './data/iconData.js';
@@ -14,13 +13,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="top-icons">
+        {/* <div className="top-icons">
           {icons.map((icon) => {
             return <Icon key={icon.url} href={icon.href} url={icon.url} className={"overlay-two small-icons"}/>
           })}
-        </div>
+        </div> */}
 
-        <About />
+        <About icons={icons}/>
         <Skills skills={skills}/>
         <Projects />
         <Contact icons={icons}/>
