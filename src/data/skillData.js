@@ -43,7 +43,7 @@ const skillData = {
       imageUrl: "https://frontendmasters.com/assets/webpack.png"
     }
   ],
-  experienced: [
+  general: [
     {
       skillName: 'Agile Workflow',
       imageUrl: null
