@@ -3,12 +3,12 @@
   position: absolute;
   right: 5em;
   /*margin: 1.5em 5em 0em 0em;*/
-  margin-top: 1.5em;
+  margin-top: 1.8em;
 }
 
 .small-icons {
   margin: 0em .5em;
-  height: 30px;
+  height: 2em;
   border-radius: 5px;
 }
 
@@ -41,5 +41,5 @@
 .icons {
   margin: .5em 1em 1.5em 1em;
   border-radius: 5px;
-  height: 45px;
+  height: 3em;
 }
