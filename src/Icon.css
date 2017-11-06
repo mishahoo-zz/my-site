@@ -1,8 +1,6 @@
 .top-icons {
-  /*float: right;*/
   position: absolute;
   right: 5em;
-  /*margin: 1.5em 5em 0em 0em;*/
   margin-top: 1.8em;
 }
 
@@ -14,11 +12,7 @@
 
 .overlay:hover {
   background-color: #e3fcea;
-  /*position:relative;*/
-  /*width: 100%;*/
-  /*height: 100%;*/
   cursor: pointer;
-  /*border-radius: 5px;*/
   opacity: 0.50;
   -moz-opacity: 50%;
   -webkit-opacity: 50%;
@@ -27,11 +21,7 @@
 
 .overlay-two:hover {
   background-color: #e3fcea;
-  /*position:relative;*/
-  /*width: 100%;*/
-  /*height: 100%;*/
   cursor: pointer;
-  /*border-radius: 5px;*/
   opacity: 0.50;
   -moz-opacity: 50%;
   -webkit-opacity: 50%;

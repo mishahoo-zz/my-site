@@ -12,12 +12,6 @@ p {
   margin: 0;
 }
 
-/*body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #333; }*/
-
 /********************************************
   WHEN SCREEN IS SMALLER THAN 650px
 ********************************************/
@@ -376,6 +370,3 @@ width: 100%; }
     border: 1px solid #fff;
     width: 80%;
     margin: 40px auto; }
-/*
-  h5 {
-    margin-bottom: 10px; }*/
