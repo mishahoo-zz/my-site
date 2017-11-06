@@ -13,28 +13,28 @@
 }
 
 .overlay:hover {
-  background-color: grey;
+  background-color: #e3fcea;
   /*position:relative;*/
   /*width: 100%;*/
   /*height: 100%;*/
   cursor: pointer;
   border-radius: 5px;
-  opacity: 0.40;
-  -moz-opacity: 40%;
-  -webkit-opacity: 40%;
+  opacity: 0.50;
+  -moz-opacity: 50%;
+  -webkit-opacity: 50%;
   z-index: 2;
 }
 
 .overlay-two:hover {
-  background-color: grey;
+  background-color: #e3fcea;
   /*position:relative;*/
   /*width: 100%;*/
   /*height: 100%;*/
   cursor: pointer;
   border-radius: 5px;
-  opacity: 0.40;
-  -moz-opacity: 40%;
-  -webkit-opacity: 40%;
+  opacity: 0.50;
+  -moz-opacity: 50%;
+  -webkit-opacity: 50%;
   z-index: 2;
 }
 

@@ -48,6 +48,14 @@
   margin-top: 10px;
 }
 
+.fork-it:hover {
+  color: #fff;
+  opacity: 0.50;
+  -moz-opacity: 50%;
+  -webkit-opacity: 50%;
+  z-index: 2;
+}
+
 /********************************************
 	WHEN SCREEN IS LARGER THAN 1095px
 ********************************************/
