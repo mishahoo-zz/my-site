@@ -3,13 +3,15 @@
   flex-direction: row;
   margin: 2.2em;
   margin-top: 6.2em;
-  padding: 3em;
+  padding: 3em 4em;
   background-color: #e3fcea;
 }
 
 #self-photo {
   width: 15em;
   height: 15em;
+  /*min-width: 15em;*/
+  /*min-height: 15em;*/
   margin-right: 3em;
   margin-top: auto;
   margin-bottom: auto;
@@ -17,7 +19,10 @@
 
 .about-info {
   width: 100%;
-  margin-right: 70px;
+  max-width: 1100px;
+  /*margin-right: 6em;*/
+  /*margin-top: 1em;*/
+  margin: 1em auto 0 1em;
 }
 
 #name {
@@ -35,12 +40,20 @@
   font-size: 2.1em;
   font-style: italic;
   color: #3d3a39;
-  max-width: 455px;
+  max-width: 500px;
 }
 
 #about {
   color: #3d3a39;
   font-size: 1.2em;
+}
+
+.title-line {
+  display: inline-block;
+}
+
+.full-stack {
+  margin-right: .3em;
 }
 
 .line {
@@ -51,10 +64,10 @@
 }
 
 /********************************************
-WHEN SCREEN IS SMALLER THAN 1050px
+WHEN SCREEN IS SMALLER THAN 1000px
 ********************************************/
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   #top-main {
     flex-direction: column;
   }
@@ -63,7 +76,8 @@ WHEN SCREEN IS SMALLER THAN 1050px
     width: 21em;
     height: 21em;
     /*max-width: 350px;*/
-    /*min-width: 150px;*/
+    /*min-width: 21em;*/
+    /*min-height: 21em;*/
     margin: auto;
   }
 
@@ -71,15 +85,21 @@ WHEN SCREEN IS SMALLER THAN 1050px
     margin-left: auto;
     margin-right: auto;
   }
+
+  .about-info {
+    max-width: 600px;
+    margin: .5em auto 0 auto;
+  }
 }
 
 /********************************************
 WHEN SCREEN IS SMALLER THAN 450px
 ********************************************/
 
-@media (max-width: 1050px) {
+@media (max-width: 520px) {
   #top-main {
     margin-top: 4.9em;
+    padding: 2em 2em;
   }
 
   #name {
@@ -87,9 +107,12 @@ WHEN SCREEN IS SMALLER THAN 450px
   }
 
   #self-photo {
-    width: 17em;
-    height: 17em;
-    margin-top: 1.5em;
+    width: 18em;
+    height: 18em;
+    /*max-width: 100%;*/
+    /*heigth: 80%;*/
+    /*width: 80%;*/
+    margin: 3em auto 0 auto;
   }
 
 }

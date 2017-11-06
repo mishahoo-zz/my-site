@@ -5,7 +5,7 @@ body {
 }
 
 h3, h1 {
-  margin: .5em 0;
+  margin: .3em 0;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
   WHEN SCREEN IS SMALLER THAN 450px
 ********************************************/
 
-@media (max-width: 450px) {
+@media (max-width: 520px) {
   body {
     font-size: 10px;
   }

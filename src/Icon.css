@@ -9,7 +9,7 @@
 .small-icons {
   margin: 0em .5em;
   height: 2em;
-  border-radius: 5px;
+  border-radius: .3em;
 }
 
 .overlay:hover {
@@ -18,7 +18,7 @@
   /*width: 100%;*/
   /*height: 100%;*/
   cursor: pointer;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   opacity: 0.50;
   -moz-opacity: 50%;
   -webkit-opacity: 50%;
@@ -31,7 +31,7 @@
   /*width: 100%;*/
   /*height: 100%;*/
   cursor: pointer;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   opacity: 0.50;
   -moz-opacity: 50%;
   -webkit-opacity: 50%;
@@ -40,6 +40,6 @@
 
 .icons {
   margin: .5em 1em 1.5em 1em;
-  border-radius: 5px;
+  border-radius: .3em;
   height: 3em;
 }

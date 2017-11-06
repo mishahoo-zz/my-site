@@ -14,7 +14,10 @@ const About = ({icons}) => {
         <h1 id="name">misha hoo</h1>
         <img id="self-photo" src="./assets/self.png" alt="portrait"></img>
         <div className="about-info">
-          <h1 id="title" className="animated animatedFadeUp fadeUp">full-stack software engineer</h1>
+          <h1 id="title" className="animated animatedFadeUp fadeUp">
+            <span className="title-line full-stack">full-stack</span>
+            <span className="title-line">software engineer</span>
+          </h1>
           <p id="about">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             do eiusmod tempor incididunt ut labore et dolore magna aliqua.
