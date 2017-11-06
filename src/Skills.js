@@ -10,8 +10,8 @@ const Skills = ({skills}) => {
         <Parallax className="image-block" bgImage="./assets/tropicalprint.jpg" strength={300}>
         <h1 id="skills-header">skills</h1>
         <div id="skills">
-          {['frontEnd', 'backEnd', 'general'].map((skillType) => {
-            return <SkillGroup key={skillType} type={skillType} skills={skills[skillType]} />
+          {skills.map((skillGroup) => {
+            return <SkillGroup key={skillGroup.type} type={skillGroup.type} skills={skillGroup.skills} />
           })}
         </div>
         </Parallax>
