@@ -10,6 +10,7 @@
 #self-photo {
   width: 15em;
   height: 15em;
+  min-width: 15em;
   margin-right: 3em;
   margin-top: auto;
   margin-bottom: auto;
@@ -71,6 +72,7 @@ WHEN SCREEN IS SMALLER THAN 1000px
   #self-photo {
     width: 21em;
     height: 21em;
+    min-width: 21em;
     margin: auto;
   }
 
@@ -102,6 +104,7 @@ WHEN SCREEN IS SMALLER THAN 450px
   #self-photo {
     width: 18em;
     height: 18em;
+    min-width: 18em;
     margin: 3em auto 0 auto;
   }
 

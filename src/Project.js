@@ -11,7 +11,7 @@ const Project = ({project}) => {
         <div className="project-description">
           <h3 className="project-title">{project.title}</h3>
           <p className="project-text">{project.description}</p>
-          <a className="fork-it" href="https://github.com/mishahoo/sharemykitchen">
+          <a className="fork-it" href={project.url}>
             <img src="https://greasyfork.org/forum/uploads/thumbnails/FileUpload/df/f87899bf1034cd4933c374b02eb5ac.png" alt="fork it" />
           </a>
         </div>

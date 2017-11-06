@@ -12,7 +12,7 @@ const iconData = [
     url: 'https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png',
   },
   {
-    href: 'https://www.instagram.com/misha_hoo/',
+    href: 'https://drive.google.com/file/d/1vzbgm2IXiOUIcsGeEtkexQFX-0S5atcy/view?usp=sharing',
     url: './assets/resume-icon.png',
   }
 
