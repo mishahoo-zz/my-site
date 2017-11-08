@@ -11,7 +11,7 @@ const Contact = ({icons}) => {
           return <Icon key={icon.url} href={icon.href} url={icon.url} className={"overlay icons"}/>
         })}
         <div className="contact-text">
-          <a href="mailto:hoomisha@gmail.com" id="email">hoomisha@gmail.com</a>
+          <a href="mailto:hoomisha@gmail.com" target="_blank" rel="noopener noreferrer" id="email">hoomisha@gmail.com</a>
         </div>
       </div>
       <div className="bar"></div>

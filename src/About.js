@@ -19,13 +19,11 @@ const About = ({icons}) => {
             <span className="title-line">software engineer</span>
           </h1>
           <p id="about">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            I am a full-stack software engineer/ designer based in Austin, TX.
+            I like to keep things simple and clean, but also fun. Working in web
+            development allows me to focus on things I like best: Creating relevant
+            solutions for all kinds of ideas, working with people, and learning
+            about what’s new out there.
           </p>
           <div className="line"></div>
         </div>
