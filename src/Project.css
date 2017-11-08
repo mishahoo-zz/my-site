@@ -1,7 +1,7 @@
-.carousel-box {
+/*.carousel-box {
   display: flex;
   flex-direction: column;
-}
+}*/
 
 .project-info {
   display: flex;
@@ -9,14 +9,15 @@
   margin: 1em 2em 0 2em;
 }
 
-.project-gif {
-  max-width: 600px;
-  width: 100%;
+/*.project-gif {
   margin: 0 auto 3em auto;
-}
+}*/
 
 .project-gif-image {
-  border-radius: 15px;
+  max-width: 600px;
+  border-radius: .5em;
+  width: 100%;
+  margin: 1.5em 0 2em 0;
 }
 
 .project-description {
@@ -65,12 +66,17 @@
     margin-bottom: 0 !important;
   }
 
-  .project-gif {
-    min-width: 750px !important;
+  /*.project-gif {
     margin: 3em auto !important;
     margin-left: 5em !important;
     margin-bottom: 3em !important;
     margin-top: 1em !important;
+  }*/
+
+  .project-gif-image {
+    min-width: 650px;
+    /*max-height: 431px;*/
+    margin: 1em 3em 2em 4em;
   }
 
   .project-description {
@@ -86,12 +92,12 @@
 
   .fork-it {
     width: 50px;
-    margin: 10px 0 0 0;
+    margin: 1em 0 0 0;
   }
 }
 
 /********************************************
-	WHEN SCREEN IS LARGER THAN 850px
+	WHEN SCREEN IS smaller THAN 850px
 ********************************************/
 
 @media (max-width: 850px) {
@@ -102,5 +108,20 @@
   .project-text {
     margin-left: 1em;
     margin-right: 1em;
+  }
+}
+
+/********************************************
+  WHEN SCREEN IS SMALLER THAN 750px
+********************************************/
+
+@media (max-width: 750px) {
+  .project-gif-image {
+    max-width: 85%;
+  }
+  .project-text {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

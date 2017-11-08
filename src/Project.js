@@ -5,9 +5,11 @@ const Project = ({project}) => {
   return (
     <div className="carousel-box">
       <div className="project-info">
-        <div className="project-gif">
-          <img className="project-gif-image" src={project.image} alt="project"></img>
-        </div>
+        <a href={project.url}>
+          <div>
+            <img className="project-gif-image" src={project.image} alt="project"></img>
+          </div>
+        </a>
         <div className="project-description">
           <h3 className="project-title">{project.title}</h3>
           <p className="project-text">{project.description}</p>

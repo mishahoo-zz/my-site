@@ -1,6 +1,6 @@
 const projectData = [
   {
-    image: './assets/sharemykitchen.png',
+    image: './assets/brainstorm.png',
     title: 'Brainstorm',
     description: `One Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\
@@ -20,7 +20,7 @@ const projectData = [
     url: 'https://www.github.com/mishahoo/sharemykitchen'
   },
   {
-    image: './assets/sharemykitchen.png',
+    image: './assets/Goodfilms.png',
     title: 'Goodfilms',
     description: `One Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\
