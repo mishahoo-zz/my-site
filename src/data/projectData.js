@@ -1,6 +1,6 @@
 const projectData = [
   {
-    image: './assets/brainstorm.png',
+    image: './assets/Brainstorm.png',
     title: 'Brainstorm',
     description: `Brainstorm is a team friendly tool that allows users to brainstorm\
     in real time with friends or co-workers. Sign up, login and invite other users via\

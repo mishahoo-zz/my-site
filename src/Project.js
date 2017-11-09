@@ -5,7 +5,7 @@ const Project = ({project}) => {
   return (
     <div className="carousel-box">
       <div className="project-info">
-        <a href={project.url} target="_blank">
+        <a href={project.url} target="_blank" className="project-image">
           <div>
             <img className="project-gif-image" src={project.image} alt="project"></img>
           </div>

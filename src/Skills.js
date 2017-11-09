@@ -7,7 +7,7 @@ const Skills = ({skills}) => {
 
     return (
       <div>
-        <Parallax className="image-block" bgImage="./assets/tropicalprint.jpg" strength={300}>
+        <Parallax className="image-block" bgImage="./assets/tropicalPrintTall.png" strength={300}>
         <h1 id="skills-header">skills</h1>
         <div id="skills">
           {skills.map((skillGroup) => {

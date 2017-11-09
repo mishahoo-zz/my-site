@@ -7,3 +7,14 @@
   padding: 1.5em;
   letter-spacing: 1.5px;
 }
+
+/********************************************
+  WHEN SCREEN IS SMALLER THAN 500px
+********************************************/
+
+@media (max-width: 500px) {
+  .react-parallax-bgimage {
+    left: 0px !important;
+    transform: none !important;
+  }
+}
