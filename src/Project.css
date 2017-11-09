@@ -1,17 +1,8 @@
-/*.carousel-box {
-  display: flex;
-  flex-direction: column;
-}*/
-
 .project-info {
   display: flex;
   flex-direction: column;
   margin: 1em 2em 0 2em;
 }
-
-/*.project-gif {
-  margin: 0 auto 3em auto;
-}*/
 
 .project-gif-image {
   max-width: 600px;
@@ -66,16 +57,8 @@
     margin: 1.5em 8em 0 8em!important;
   }
 
-  /*.project-gif {
-    margin: 3em auto !important;
-    margin-left: 5em !important;
-    margin-bottom: 3em !important;
-    margin-top: 1em !important;
-  }*/
-
   .project-gif-image {
     min-width: 650px;
-    /*max-height: 431px;*/
     margin: 1em 3em 2em 4em;
   }
 

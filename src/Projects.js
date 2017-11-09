@@ -15,7 +15,7 @@ class Projects extends Component {
           showThumbs={false}
           showArrows={true}
           showIndicators={false}
-          // autoPlay={true}
+          autoPlay={true}
           infiniteLoop={true}
           >
             {projects.map((project) => {

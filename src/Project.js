@@ -18,7 +18,6 @@ const Project = ({project}) => {
           </a>
         </div>
       </div>
-      {/* <img src="./assets/background2.jpg"></img> */}
       {/* <p className="legend">Project 1</p> */}
     </div>
   )

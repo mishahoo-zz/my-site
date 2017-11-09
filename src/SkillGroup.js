@@ -1,5 +1,4 @@
 import React from 'react';
-import './SkillGroup.css';
 import Skill from './Skill.js';
 
 const SkillGroup = ({type, skills}) => {
