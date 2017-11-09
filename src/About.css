@@ -44,7 +44,7 @@
 #about {
   color: #3d3a39;
   font-size: 1.2em;
-  margin-top: 1.1em;
+  margin-top: .5em;
 }
 
 .title-line {
@@ -99,6 +99,10 @@ WHEN SCREEN IS SMALLER THAN 1150px
   }
 }
 
+.title-line {
+  margin-bottom: .4em;
+}
+
 /********************************************
 WHEN SCREEN IS SMALLER THAN 520px
 ********************************************/
@@ -118,6 +122,10 @@ WHEN SCREEN IS SMALLER THAN 520px
     height: 18em;
     min-width: 18em;
     margin: 3em auto 0 auto;
+  }
+
+  .title-line {
+    margin-bottom: .3em;
   }
 
 }
