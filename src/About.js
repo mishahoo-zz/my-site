@@ -12,7 +12,7 @@ const About = ({icons}) => {
       </div>
       <div id="top-main">
         <h1 id="name">misha hoo</h1>
-        <img id="self-photo" src="./assets/self.png" alt="portrait"></img>
+        <img id="self-photo" src="https://ucarecdn.com/4ac9b229-321e-4e53-acb1-1f1d34cfc812/self.png" alt="portrait"></img>
         <div className="about-info">
           <h1 id="title" className="animated animatedFadeUp fadeUp">
             <span className="title-line full-stack">full-stack</span>

@@ -1,6 +1,6 @@
 const projectData = [
   {
-    image: './assets/Brainstorm.png',
+    image: 'https://ucarecdn.com/d063253e-ccc5-49e2-9607-b19c8addc70d/Brainstorm.png',
     title: 'Brainstorm',
     description: `Brainstorm is a team friendly tool that allows users to brainstorm\
     in real time with friends or co-workers. Sign up, login and invite other users via\
@@ -9,7 +9,7 @@ const projectData = [
     url: 'https://www.github.com/mishahoo/brainstorm'
   },
   {
-    image: './assets/sharemykitchen.png',
+    image: 'https://ucarecdn.com/8e212b52-6e80-40bc-9980-89054feb7c7b/sharemykitchen.png',
     title: 'sharemykitchen',
     description: `A home sharing application where users can rent and share kitchen spaces\
     by the day or hour. Create a profile and view beautiful cooking spaces complete with\
@@ -17,7 +17,7 @@ const projectData = [
     url: 'https://www.github.com/mishahoo/sharemykitchen'
   },
   {
-    image: './assets/Goodfilms.png',
+    image: 'https://ucarecdn.com/cf40065d-e1ff-46fd-8802-7bc453c5811e/Goodfilms.png',
     title: 'Goodfilms',
     description: `
       A personal movie database where movie lovers rate, collect, and view information on\

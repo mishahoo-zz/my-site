@@ -35,17 +35,21 @@ const skillData = [
         imageUrl: null
       },
       {
-        skillName: 'MongoDB/Mongoose',
+        skillName: 'MongoDB',
         imageUrl: "https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58d2c758725e25221a20ed53/1490208601230/mongodb-logo.png"
+      },
+      {
+        skillName: 'Mongoose',
+        imageUrl: null
       },
       {
         skillName: 'RESTful APIs',
         imageUrl: null
-      },
-      {
-        skillName: 'Webpack',
-        imageUrl: "https://frontendmasters.com/assets/webpack.png"
       }
+      // {
+      //   skillName: 'Webpack',
+      //   imageUrl: "https://frontendmasters.com/assets/webpack.png"
+      // }
     ]
   }, {
     type: 'General',
@@ -60,7 +64,7 @@ const skillData = [
       },
       {
         skillName: 'Photoshop',
-        imageUrl: "https://cdn.iconverticons.com/files/png/3c02af24436268c7_256x256.png"
+        imageUrl: "http://download.seaicons.com/icons/nokari/adobe-cs-series/512/Photoshop-Extended-3-icon.png"
       },
       {
         skillName: 'Illustrator',

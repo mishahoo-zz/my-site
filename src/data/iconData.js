@@ -13,7 +13,7 @@ const iconData = [
   },
   {
     href: 'https://drive.google.com/file/d/1vzbgm2IXiOUIcsGeEtkexQFX-0S5atcy/view?usp=sharing',
-    url: './assets/resume-icon.png',
+    url: 'https://ucarecdn.com/b68d6734-b22c-4dc5-95e6-0ea2d90ac756/resumeicon.png',
   }
 
 ]
