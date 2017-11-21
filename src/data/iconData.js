@@ -1,7 +1,7 @@
 const iconData = [
   {
     href: 'https://www.linkedin.com/in/mishahoo/',
-    url: 'http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png',
+    url: 'http://icons.veryicon.com/ico/System/Android%201/Social%20Networks%20linkedin.ico',
   },
   {
     href: 'https://github.com/mishahoo',
