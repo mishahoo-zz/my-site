@@ -60,7 +60,7 @@ const skillData = [
       },
       {
         skillName: 'TDD (mocha/chai)',
-        imageUrl: "http://mherman.org/images/mocha-chaijs.png"
+        imageUrl: null
       },
       {
         skillName: 'Photoshop',

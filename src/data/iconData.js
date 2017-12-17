@@ -12,7 +12,7 @@ const iconData = [
     url: 'https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png',
   },
   {
-    href: 'https://drive.google.com/file/d/1wprDr4crumtm1EKZQCuZ0TH-_Dcf3VhT/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1I7S2EHXneP8Eheh9MXDs8p9h5uN6JlVi/view?usp=sharing',
     url: 'https://ucarecdn.com/b68d6734-b22c-4dc5-95e6-0ea2d90ac756/resumeicon.png',
   }
 
