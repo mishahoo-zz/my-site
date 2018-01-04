@@ -6,7 +6,7 @@ const projectData = [
     in real time with friends or co-workers. Sign up, login and invite other users via\
     email to contribute to a brainstorming session. The clean friendly design is easy\
     and fun to use.`,
-    url: 'https://www.github.com/mishahoo/brainstorm'
+    url: 'http://www.brainstormapp.io'
   },
   {
     image: 'https://ucarecdn.com/8e212b52-6e80-40bc-9980-89054feb7c7b/sharemykitchen.png',
